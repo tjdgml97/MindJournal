@@ -124,62 +124,6 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(10.0),
               childAspectRatio: 6.0 / 5.0,
               children: [
-                //
-                // Container(
-                //   height: 5,
-                //   width: 5,
-                //   margin: EdgeInsets.only(left: 10, right: 10),
-                //   padding: EdgeInsets.all(10),
-                //   decoration: BoxDecoration(
-                //     border: Border.all(color:Colors.black26),
-                //     boxShadow: [
-                //       BoxShadow(
-                //           color: Colors.grey,
-                //           blurRadius: 4.0,
-                //           spreadRadius: 1.0,
-                //           offset: Offset(-1, -1))
-                //     ],
-                //     color:  Color(0xffECE6CC),//FFCFAA//AA6A39
-                //     borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
-                //   ),
-                //   child: Row(
-                //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                //     children: [
-                //       Column(
-                //         crossAxisAlignment: CrossAxisAlignment.start,
-                //         children:[
-                //           Text('  Step 5',
-                //               style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20)
-                //           ),
-                //           Text('죄책감이들때 대처하기',
-                //             style:TextStyle(fontSize: 14),
-                //           ),],),
-                //       Row(
-                //         mainAxisAlignment: MainAxisAlignment.end,
-                //         crossAxisAlignment: CrossAxisAlignment.end,
-                //         children: [
-                //           Container(
-                //             width: 10,
-                //             height: 10,
-                //             // color:Colors.black26,
-                //             child: AspectRatio(
-                //               aspectRatio: 10 / 2,
-                //               child: Image.network(
-                //                 'https://cdn3.iconfinder.com/data/icons/medical-and-healthcare-1-4/85/heart_checkup_magnifier_cardiology_medicine_medical-512.png',
-                //                 // widget.docid['photo'],
-                //                 fit: BoxFit.scaleDown,
-                //               ),
-                //             ),
-                //           ),
-                //           IconButton(onPressed: (){
-                //             Navigator.pushNamed(context, '/step5page');
-                //           }, icon: Icon(Icons.navigate_next)),
-                //         ],
-                //       ),
-                //       //TextButton(onPressed: (){ Navigator.pushNamed(context, '/step1page');}, child:Text("시작")),
-                //     ],                          ),
-                // ),
-
                 Card(
                   surfaceTintColor: Colors.black26,
                   clipBehavior: Clip.antiAlias,

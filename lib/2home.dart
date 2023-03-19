@@ -75,10 +75,6 @@ class _Step2_Home extends State<Step2_Home> {
                                         ],
                                       ),
                                     ),
-                                    // ListTile(
-                                    //   title:    Text(documentSnapshot['name'],style: TextStyle(fontSize: 18),),
-                                    //   subtitle: Text(documentSnapshot['createTime'].toDate().toLocal().toString().substring(5,16)),
-                                    // ),
                                     IconButton(
                                         onPressed: () {
                                           documentSnapshot.reference.delete();
